@@ -1,0 +1,1 @@
+php.exe ./Console/cake.php AclExtras.AclExtras aco_sync

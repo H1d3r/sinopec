@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-9-12, 10:09:04
+    Author     : mxj
+*/
+
+ .TopicList
+        {
+            /*margin-left: 260px;*/
+            margin-top: 10px;
+            border: 1px solid #dddddd;
+        }
+        
+        .TopicList ,.TopicItem
+        {
+            border-bottom-color: #CDCDCD;
+            border-bottom-style: dashed;
+            border-bottom-width: 1px;
+            margin-bottom: 8px;
+        }
+        
+        .TopicList a
+        {
+            font: 18px/1.5 '微软雅黑' ,Tahoma,Helvetica, 'SimSun' ,sans-serif;
+            padding: 8px 0 5px;
+            font-weight: 700;
+            color: #f79646;
+            text-decoration: none;
+        }
+        
+        .TopicList .TopicContent
+        {
+            font: 15px/1.5 '微软雅黑' ,Tahoma,Helvetica, 'SimSun' ,sans-serif;
+            color: #444;
+            margin-bottom: 8px;
+        }
+        
+        .TopicList .TopicFooter
+        {
+            font: 12px/1.5 '微软雅黑' ,Tahoma,Helvetica, 'SimSun' ,sans-serif;
+            color: #999;
+            line-height: 18px;
+            margin-bottom: 8px;
+        }
+        
+        table
+        {
+            border-collapse: collapse;
+        }
+        td
+        {
+            border: #ccc solid 1px;
+            padding: 5px;
+        }
+
+.home-text{
+    margin: 1px 10px;
+    padding: 5px 35px;
+    text-align: left; 
+    vertical-align: middle; 
+    font: 15px/1.5 '微软雅黑',Tahoma,Helvetica,'SimSun',sans-serif"
+}        
+
+.k {
+    background: none repeat scroll 0 0 #F4F8FA;
+    border: 1px solid #C7DBE5;
+    clear: both;
+    display: none;
+    padding: 1%;
+    width: 98%;
+}

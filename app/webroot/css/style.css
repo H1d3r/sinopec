@@ -1,0 +1,244 @@
+@charset "utf-8";
+body, html {height: 100%;}
+body {margin: 0;padding: 0;font-size: 12px;font-family: '宋体';font-weight: normal;background: #f0f0f0;position: relative;}
+ul {margin: 0;padding: 0;}
+li {margin: 0;padding: 0;list-style: none}
+a {text-decoration: none;color: #000;border: none}
+a:hover{text-decoration:unerline;}
+h3 {margin: 0;padding: 0;padding-bottom: 5px}
+h4 {}
+img {border: none;cursor:pointer;}
+.dis {display: block}
+.undis {display: none}
+.Button{background:#e2e8eb;cursor:pointer;border-left:1px solid #fff;border-top:1px solid #fff;border-right:2px solid #bec6ce;border-bottom:2px solid #bec6ce;padding:3px 20px;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;color:#000;font-size: 12px}
+.Buttom {background: #2e8fd3;border-left: 1px solid #fff;border-top: 2px solid #bec6ce;border-left: 2px solid #bec6ce;padding: 5px 20px;color:#fff}
+.BC {margin-top: 10px}
+.tj {padding-bottom: 10px;width: 100%;text-align: left}
+.leftnavbg{ background:url(../img/nav_bj.jpg); color:#FFF;}
+/*公共页面*/
+#m {width: 100%;margin-top: 10px}
+#m ul li {float: left;border: 1px solid #ccc;text-align: center;padding: 5px 20px;background: #fff}
+#m ul li a {color: #000}
+.k {display: none;clear:both;background: #f4f8fa;border: 1px solid #c7dbe5;padding: 10px}
+.content {width:100%;height: 100%;background: #f0f0f0;position: absolute;_position: relative}
+.header {height: 88px;background: url(../img/header.jpg);}
+.logo {width: 100%;height: 88px;background: url(../img/bj2.png) center no-repeat;text-align: center;}
+.logo_left {padding: 10px 10px 10px 60px;float: left}
+.logo_center {width:45%;font-size: 48px;font-family: '华文行楷';color: #fff;line-height: 110px}
+.logo_center span {font-family: 'Century Gothic'}
+.logo_right {color: #fff;float: right;width: 15%;padding-top: 50px;text-align: right;margin-right: 20px}
+.logo_right a {margin: 0 5px;color: #fff}
+.nav {height: 33px;background: url(../img/nav.jpg)}
+.nav ul li {float: left;font-size: 14px;font-family: '宋体';padding: 8px 15px;text-align: center;margin-left: 10px}
+.nav ul li a {text-decoration: none;color: #fff}
+.main {position: absolute;top: 121px;left: 0;right: 0;bottom: 20px;}
+.left {width: 230px;float: left;height: 100%;border-right: 1px solid #99B2C8;margin-top: 10px;}
+.left ul li {height:15px;font-size: 14px;padding: 10px 0;text-align: center}
+.right {margin-left: 240px;padding-top: 10px;height: 100%;overflow: auto;}
+.footer {text-align: center;font-family: '微软雅黑';position: absolute;background: #ccc;bottom: 0;left: 0;width: 100%;height: 20px;}
+/*登录页面*/
+.login {background: url(../img/login_bj.jpg) repeat-x #1575a5;width: 100%;height: 100%;position: absolute;_position: relative;text-align: center}
+.login_content {background: url(../img/login_bj.png) repeat-x;width: 610px;height: 400px;-moz-border-radius: 5px;-khtml-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;margin: 0 auto;text-align: center;margin-top: 10%}
+.login_top {font-size: 38px;font-family: '微软雅黑';letter-spacing: 5px;padding: 5px 0}
+.login_center {background: #7badc6;height: 1px;border-bottom: 1px solid #e8e6eb;margin-bottom: 20px}
+.login_bottom {height: 50px}
+.login_left {width: 55%;float: left}
+.login_right {width: 40%;float: right;padding-top: 20px}
+.login_right h4 {font-size: 24px;text-align: left;margin: 0;padding: 0}
+.login_right table tr {height: 40px;line-height: 40px;}
+.logo_center_1 {font-size: 18px;text-align: right}
+.logo_center_2 {text-align: left}
+.logo_center_2 .lbutton{ cursor:pointer;}
+.anniu {border: 1px solid #003265;padding: 3px 20px;color: #fff;border-radius:5px;text-transform: uppercase;cursor: hand;cursor: pointer;font-size: 14px}
+.login_right_bottom {padding-top: 60px;display: block;text-align: left}
+/*呼叫中心*/
+.call {background: #f4f8fa;border: 1px solid #99b2c8;padding: 10px;margin-right:10px;}
+.call table {border: 1px solid #ddd;background: #fff}
+.call table tr td {height: 30px;border: 1px solid #ddd}
+.omtable {background: #fff;}
+.omtable .tddata {height: 30px;border: 1px solid #ddd}
+.call_1 {width: 150px;text-align: right;background: #e2e8eb}
+.call_1 span {width: 110px;display: block;font-size: 12px}
+.call_1 b{color:#f00}
+.call_1_1 {width: 110px;text-align: right;background: #e2e8eb}
+.call_1_2 {padding-left: 10px}
+.call_2 {text-align: left;padding: 3px 10px;}
+.call_2 select{min-width:155px}
+.call_3 {text-align: left;padding-left: 10px}
+.call_4 {text-align: left;padding-left: 10px}
+.call_5 {text-align: left;padding-left: 10px}
+.call table tr td a {color: #f00;margin:0 5px}
+.call_tit {width: 110px;text-align: right;background: #e2e8eb}
+.call_2_tit {text-align:left;padding: 3px 10px;background: #e2e8eb;}
+.adddiv{width:120px; height:34px; float:right; position:relative; right:0px; top:5px;}
+.call_2_tit .addbutton {background: #e9f5ff;background: url(../img/addbtnbg.png) no-repeat;color: #919191;cursor: pointer;width: 120px;height: 34px;font: bold 12px/24px Arial, Helvetica, sans-serif;border: none;margin: 2px;padding-left: 28px;}
+.call_line {background: #c4e3ff;}
+.selectdata_today {color: #f00;}
+.selectdata_Weekend {color: #ccc;}
+.selectdata_normal {color: #000;}
+.divadd {padding: 1px 0px;}
+.divaddimg {width:60px;display: block;font-size: 12px;text-align: center;float: right;padding-top: 6px;}
+.divadd span {padding-right: 30px;}
+.input50 {width: 50px;}
+.input240 {width: 240px;}
+.selectw240{_width:240px;min-width:240px}
+.selectw155{_width:155px;min-width:155px}
+.areatext5 {width: 90%;height: 60px;}
+.pl20{padding-left:20px;}
+.olabel {margin-right:10px;font-size: 14px;font-weight: bold;}
+.olabelp {color: #000;}
+.olabelw {color: #919191;}
+.olabelt {color: #f00;}
+.important {color: #f00;padding-left: 10px;font-weight: bold;}
+.addbtn {background: #e9f5ff;background: url(../img/addbtnbg.png) no-repeat;color: #919191;cursor: pointer;width: 86px;height: 34px;font: bold 12px/24px Arial, Helvetica, sans-serif;border: none;margin: 2px;padding-left: 24px;}
+/*合同管理*/
+.Contract {width: 100%;margin-top: 10px}
+/*高级配置*/
+#AC {width: 100%}
+#AC table {background: #fff}
+#AC table tr td {border: 1px solid #ddd;height: 50px}
+.AC_1 {width: 110px;text-align: right;background: #e2e8eb}
+.AC_2 {padding-left: 10px}
+#p {display: table-row/*table-row*/}
+/*文件管理*/
+.x-panel-body {overflow:hidden;position: relative;font-size: 14px}
+.x-tree-lines .x-tree-elbow {background: url(../img/elbow.gif)}
+.x-tree-lines .x-tree-elbow-end {background: url(../img/elbow-end.gif)}
+.x-tree-lines .x-grid-tree-node-expanded .x-tree-elbow-end-plus {background: url(../img/elbow-end-minus.gif)}
+.x-tree-no-lines .x-grid-tree-node-expanded .x-tree-elbow-plus, .x-tree-no-lines .x-grid-tree-node-expanded .x-tree-elbow-end-plus {background: url(../img/elbow-end-minus-nl.gif)}
+.x-tree-lines .x-tree-elbow-end-plus {background: url(../img/elbow-end-plus.gif)}
+.x-tree-lines .x-tree-elbow-line {background: url(../img/elbow-end-line.gif)}
+.x-tree-lines .x-grid-tree-node-expanded .x-tree-elbow-plus {background: url(../img/elbow-minus.gif)}
+.x-tree-lines .x-tree-elbow-plus {background: url(../img/elbow-plus.gif)}
+.x-tree-no-lines .x-tree-elbow-plus, .x-tree-no-lines .x-tree-elbow-end-plus {background: url(../img/elbow-plus-nl.gif)}
+.x-tree-icon-parent {width: 16px;background: url(../img/folder.gif)}
+.x-grid-tree-node-expanded .x-tree-icon-parent {background: url(../img/folder-open.gif)}
+.x-tree-icon-leaf {width: 16px;background: url(../img/leaf.gif)}
+.x-tree-elbow, .x-tree-elbow-end, .x-tree-elbow-plus, .x-tree-elbow-end-plus, .x-tree-elbow-empty, .x-tree-elbow-line {height: 19px;width: 16px}
+.x-tree-panel .x-grid-row .x-grid-cell-inner {height: 25px;line-height: 25px;cursor: pointer;white-space: nowrap;vertical-align: middle}
+.x-tree-animator-wrap {	overflow: hidden}
+.x-box-layout-ct, .x-border-layout-ct {overflow: hidden;zoom: 1}
+/*导入*/
+#call {margin: 0 auto;width: 1000px;height: auto}
+.call_top {height: auto!important;min-height: 300px;max-height: 700px;padding: 10px;display: block}
+.call_top_left {width: 220px;float: left}
+.call_top_left span {margin: 5px 2px;color: #666;line-height: 1.8;display: block}
+.call_top_right {background: #fff;float: left;width: 700px;border: 1px solid #ddd;padding: 10px}
+.call_bottom {text-align: right;border-top: 1px solid #e9f5fb;padding-top: 10px;padding-right: 10px}
+/*工单管理*/
+.wom {width: 90px;display: inline-block;text-align: right;padding-right: 5px}
+#it a {color: #f00}
+/*弹出框*/
+.drag_wrap {width:500px;height: 500px;position: absolute;border: 1px solid #99b2c8;display: none;z-index: 3;background: #f4f8fa;}
+.drag_wrap h1 {position: relative;height: 35px;line-height: 35px;text-indent: 1em;font-size: 14px;cursor: move;font-weight: normal;background: #e7eff4;border: 1px solid #ccc;margin: 0;padding: 0;border-bottom: none}
+.drag_wrap h1 span {position: absolute;font-size: 16px;bottom: 1px;right: 10px;cursor: pointer}
+.drag_cont {padding: 10px;line-height: 23px;text-indent: 2em}
+.drag_cont table {background: #fff;}
+.drag_cont table tr td {/*height: 40px*/}
+.drag_cont table tr td span{ display: inherit;float: left;margin-right: 10px;text-align: right;width: 60px;}
+.mask {position: absolute;left: 0;top: 0;z-index: 2;background: #000;filter: alpha(opacity=50);opacity: 0.5}
+.in {margin: 50px auto;width: 80px}
+/**/
+.min_right {width: 87%;float: left;min-height: 580px;border-left: 1px solid #99B2C8}
+.right_1 {width: 80%;float: left}
+.right_1_left {color:#158;font-size: 14px;border-right: 2px solid #d1dae3;min-height:700px;float: left;width: 190px}
+.menuheader {font: bold 14px Arial;background: url(../img/titlebar.png) repeat-x;text-transform: uppercase;cursor: hand;cursor: pointer;height: 32px;line-height: 32px;margin: 0;padding: 0}
+.openheader {height: 32px}
+.right_1_right {padding-left: 190px}
+.right_1_right_1 {font-size: 18px;font-family: '微软雅黑';margin: 10px}
+.arrowlistmenu ul {list-style-type: none;margin: 0;padding: 0}
+.arrowlistmenu ul li a {color: #A70303;display: block;text-decoration: none;border-bottom: 1px solid #dadada}
+.arrowlistmenu ul li a:visited {color: #A70303}
+.arrowlistmenu ul li a:hover {color: #A70303;background-color: #F3F3F3}
+.categoryitems {overflow-x: hidden}
+.categoryitems span {float: right;text-align: right;margin-right: 5px;margin-top: 3px}
+.Tab_2 {margin-left: 10px;padding-top: 20px}
+.Tab_3 {border: 1px solid #84aace;margin-left: 10px;padding: 20px 0;background: #fff;padding: 10px}
+.Tab_3 table tr td {padding: 10px 0;font-size: 14px;font-weight: bold}
+.Tab_3_center {height: 40px;width: 90%}
+.Tab_3_a {margin-left: 10px}
+.right_1_right_bottom {margin-left: 10px;
+margin-top: 10px}
+.right_2_main {float: right;width: 20%}
+.right_2_main span {margin-left: 20px;font-size: 16px;font-family: '微软雅黑';width: 100%}
+.right_2_main_1 {float:left;margin: 10px 20px 20px 20px;background: #ecebf0;border: 1px solid #99b2c8;width: 80%}
+.right_2_main_1 table tr td {text-align: center;border: 1px solid #99b2c8;height: 30px;font-size: 12px}
+.n {width: 10%;float: left;display: block;margin-left: 10px;margin-top: 6px}
+.m {width: 50%;float: left;display: block}
+.z {width: 30%;float: left;text-align: right;padding-top: 12px;height: 20px}
+.Tab_3_center span {font-size: 14px;}
+/*日历*/
+.calendar {margin: 10px}
+.calendar table {border: 1px solid #999}
+.calendar table tr th {	height: 40px;background: #09C;border: 1px solid #fff;font-size: 14px;color: #fff;}
+.calendar table tr td {height: 30px;border: 1px solid #ddd;text-align: center;font-size: 12px}
+.ops {background: #fff;border: 1px solid #999;display: block}
+.contentcontainer {float: left;width: 48%;padding:0px 10px 20px 5px;}
+.headings{padding:0 20px;border:1px solid #CACACA;text-shadow:1px 1px 1px #fff;background:#EAEAEA url(../img/bg_heading.png) repeat-x top;border-top-left-radius:10px;border-top-right-radius:10px;-moz-border-radius-topright: 10px;-moz-border-radius-topleft:10px;letter-spacing:-1px;height:45px;}
+.headings h2 {font-size: 20px;}
+.contentbox {overflow: auto;border: 1px solid #fff;padding:15px;background:#fff url(../img/bg_fade_med.png) repeat-x top;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;-moz-border-radius-bottomright: 10px;-moz-border-radius-bottomleft: 10px;}
+.alt td {background: #F2F2F2 url(../img/bg_td_alt.png) repeat-x top;text-shadow: 1px 1px 1px #fff;}
+.tr-bottom {height: 24px;line-height: 24px;border-bottom: 1px dotted #cccccc;}
+.tr-bottom .text_con{float:left;height:24px;padding-left:4px;width:160px;overflow:hidden;display:block;white-space:nowrap;text-overflow:ellipsis}
+.sectionSubjectIcon {padding-left: 12px;background-image: url(../img/elbow-plus-nl.gif);background-attachment: scroll;background-repeat: no-repeat;background-position-x: left;background-position-y: center;background-color: transparent;}
+.doIcon {padding-left: 16px;background-image: url(../img/workicon.png);background-attachment: scroll;background-repeat: no-repeat;background-position-x: left;background-position-y: center;background-color: transparent;}
+.problemIcon {padding-left: 16px;background-image: url(../img/problem.png);background-attachment: scroll;background-repeat: no-repeat;background-position-x: left;background-position-y: center;background-color: transparent;}
+.routineIcon {padding-left: 16px;background-image: url(../img/routine.png);background-attachment: scroll;background-repeat: no-repeat;background-position-x: left;background-position-y: center;background-color: transparent;}
+.itemIcon {padding-left: 16px;background-image: url(../img/item.png);background-attachment: scroll;background-repeat: no-repeat;background-position-x: left;background-position-y: center;background-color: transparent;}
+.defaulttitlecss a {color: #00adb3;text-decoration: none;}
+.defaulttitlecss a:hover {color: #ff0000;text-decoration: underline;}
+.textlink a{color:#000; text-decoration:underline;}
+.textlink a:hover{color:#ff0000; text-decoration:underline;}
+.tr-bottom-auto {padding: 0px 6px;}
+.time {color: #666666;}
+.times{border:1px solid #e3e9ef;background:#fff url(../img/calendar.png) no-repeat right;height:20px;border-top:1px solid #bebdbd;width:138px}
+.author {margin-right: 10px;}
+.wdate {margin-right: 10px;}
+.workcon {margin-right: 10px;}
+/*工作日历——日历*/
+.Calendars li{display:block;width:100%;padding:10px}
+.Calendars li span{display:block;float:left;padding:0 5px}
+.Calendars{margin:10px}
+.Calendars tr th{width:31px;height:25px;border:1px solid #ccc;background:#eee}
+.Calendars tr th select{width:70px;}
+.Calendars tr td{height:25px;text-align:center;cursor:pointer;font-family:Georgia,"Times New Roman",Times,serif}
+.Calendars tr td:hover{background:#ccc}
+.Calendars_bj{background:#f0f0f0}
+.croci{background:#F60}
+/*弹出窗口*/
+.pop-up{padding:10px;background:#dce4e6}
+.pop-up_kk{width:50%;background:#fff;border:1px solid #999;padding-left:10px}
+.pop-up_kk ul{height:200px;overflow:auto}
+.pop-up tr td ul li{margin:10px;cursor:pointer}
+.pop-up tr td ul li span{display:block;float:right;width:50%}
+.pop-up_bottom{background:#d9e2e7;padding:0 5px 5px 5px;text-align:right;border-top:2px solid #e5ecee}
+/*切换*/
+#m{width:100%;margin-top:10px}
+#m ul li{float:left;border:1px solid #ccc;text-align:center;padding:5px 20px;background:#fff}
+#m ul li a{color:#000}
+.k{display:none;clear:both;background:#f4f8fa;border:1px solid #c7dbe5;padding:10px}
+/*盈科*/
+.yke{border:1px solid #ccc;padding:2px}
+.yke tr td{background:#fff url(../img/yk.jpg) repeat-x;border:1px solid #ccc;min-height:80px;line-height:1.8;width:50%}
+.yke tr td span{border:1px solid #ddd;height:80px;display:block;float:left;min-width:80px;margin-right:10px;cursor: hand;cursor: pointer}
+.yke tr td a{display:block;margin-left:100px}
+.yke tr td a:hover{color:#F00}
+
+/*石化二期项目*/
+#main-menu .active{
+	background:url(../img/nav_bj.jpg);
+}
+
+#left-menu .active{
+	background:url(../img/nav_bj.jpg);
+}
+
+
+
+
+
+
+
+
+
+

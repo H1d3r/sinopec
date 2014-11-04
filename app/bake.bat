@@ -1,0 +1,1 @@
+php.exe ./Console/cake.php bake all
